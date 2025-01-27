@@ -1,20 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Custom styles for modern design */
-body {
-  font-family: 'Inter', sans-serif; /* Modern font */
-}
-
-h1, h2, h3 {
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow for depth */
-}
-
-button {
-  transition: all 0.3s ease; /* Smooth transition for buttons */
-}
-
-button:hover {
-  transform: translateY(-2px); /* Lift effect on hover */
-}
