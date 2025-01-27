@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+env/
+venv/
+blueprints/__pycache__/
+bots/__pycache__/
+core/__pycache__/
+expert_instructions/__pycache__/
+
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+build/
+static/
+.next/
+out/
+*.local
+
+# IDE and Editors
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs and Debug
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Configuration Files
+.env
+*.cache
+tailwind.config.js
+postcss.config.js
+eslint.config.js
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Deployment
+*.yaml
